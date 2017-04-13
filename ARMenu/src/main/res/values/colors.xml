@@ -1,0 +1,28 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="colorPrimary">#e91e63</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorAccent">#3D5AFE</color>
+
+    <color name="colorIndigoPrimary">#3F51B5</color>
+    <color name="colorIndigoPrimaryDark">#303F9F</color>
+    <color name="colorIndigoStyleAccent">#FF4081</color>
+
+    <color name="colorBlue">#2196F3</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorFont">#33B5E5</color>
+    <color name="titlePagePrimary">#E3F2FD</color>
+    <color name="titlePageSecondary">#ADA58D</color>
+
+    <color name="restaurantPagePrimary">#EFEBE9</color>
+    <color name="restaurantPageSecondary">#795548</color>
+
+    <color name="diningPagePrimary">#FFF8E1</color>
+    <color name="diningPageSecondary">#7e6f82</color>
+
+    <color name="kitchenPagePrimary">#E0F7FA</color>
+    <color name="kitchenPageSecondary">#3bbda6</color>
+    <color name="kitchenPageSecondaryDark">#319b88</color>
+</resources>

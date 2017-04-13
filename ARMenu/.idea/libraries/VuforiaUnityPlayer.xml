@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="VuforiaUnityPlayer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/VuforiaUnityPlayer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

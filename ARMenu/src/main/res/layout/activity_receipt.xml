@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_rl"
+    android:background="#90000000"
+    tools:context="com.PulsarLabs.ARMenu.ReceiptActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/receipt_card_view"
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="82dp"
+        android:layout_gravity="center"
+        card_view:cardBackgroundColor="#FFFFFF"
+        card_view:cardCornerRadius="4dp"
+        card_view:contentPadding="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/app_name_string"
+                android:textColor="#33b5e5"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/receipt_number_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/receipt_number_string"
+                android:textColor="#33b5e5"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/border_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#33b5e5"
+                android:layout_below="@id/receipt_number_tv"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp" />
+
+            <RelativeLayout
+                android:id="@+id/food_elem_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/border_view"
+                android:layout_marginTop="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp">
+
+                <ImageView
+                    android:id="@+id/food_image_iv"
+                    android:layout_width="33dp"
+                    android:layout_height="27dp"
+                    android:background="@drawable/hamburger_asset" />
+
+                <TextView
+                    android:id="@+id/food_quantity_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/receipt_food_quantity_string"
+                    android:layout_toRightOf="@id/food_image_iv"
+                    android:layout_toEndOf="@id/food_image_iv"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="sans-serif-condensed" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/food_name_tv"
+                    android:text="@string/receipt_food_name_string"
+                    android:layout_toRightOf="@id/food_quantity_tv"
+                    android:layout_toEndOf="@id/food_quantity_tv"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="sans-serif-condensed" />
+
+                <TextView
+                    android:id="@+id/food_price_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/receipt_food_price_string"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textColor="#303F9F" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pay_now_rl"
+                android:background="#303F9F"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:id="@+id/pay_now_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/receipt_pay_now_string"
+                    android:textColor="#FFFFFF"
+                    android:layout_margin="24dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/total_price_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/pay_now_rl"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="24dp"
+                android:text="@string/receipt_total_price_string"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

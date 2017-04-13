@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="qrTarget" size="5.000000 4.975369" />
+    <ImageTarget name="droidTarget" size="5.000000 4.768786" />
+    <ImageTarget name="mcds" size="5.000000 7.091413" />
+  </Tracking>
+</QCARConfig>

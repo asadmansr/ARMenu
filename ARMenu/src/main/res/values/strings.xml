@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AR Menu</string>
+
+    <string name="title_activity_take_screen_shot">TakeScreenShot</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_receipt">ReceiptActivity</string>
+
+
+    <!--Title screen-->
+    <string name="app_name_string">AR Menu</string>
+    <string name="app_experiment_string">an android experiment</string>
+    <string name="title_btn_string">Get Started</string>
+
+    <!--Restaurant screen-->
+    <string name="restaurant_page_title_string">Step 1</string>
+    <string name="restaurant_page_subtitle_string">Align your phone with the target</string>
+    <string name="continue_btn_string">Continue</string>
+
+    <string name="dining_page_title_string">Step 2</string>
+    <string name="dining_page_subtitle_string">Swipe to view items</string>
+    <string name="dining_btn_string">Order Today\'s Special</string>
+
+    <string name="receipt_number_string">Receipt #56</string>
+    <string name="receipt_food_name_string">Classic Hamburger</string>
+    <string name="receipt_food_quantity_string">1</string>
+    <string name="receipt_food_price_string">$3.99</string>
+    <string name="receipt_total_price_string">Total $3.99</string>
+    <string name="receipt_pay_now_string">PAY NOW</string>
+
+    <string name="kitchen_page_title_string">Thank you for placing your order</string>
+    <string name="kitchen_page_subtitle_string">Share it with your friends!</string>
+    <string name="kitchen_btn_string">Place Another Order</string>
+
+    <string name="about_string">Don’t you hate it when your friend’s food looks tastier than yours? AR Menu uses augmented reality technology to showcase a restaurant\'s menu as realistic 3D food models before it comes to your plate - so you know exactly what you had ordered. This android experiment replaces old, out-dated paper menus to an interactive and cool way to dine.
+    \n\n\n<b>Download and print the image target</b> from https://goo.gl/wcLoRs \n\n\nMade by Moiz Muhammad, Asad Mansoor and Justin J Carlson. Graphics Made With: Logomakr.com</string>
+
+
+    <string name="share_template">I\'ve just ordered a Classic Hamburger using AR Menu, an augmented reality menu #androidexperiments</string>
+</resources>
