@@ -10,10 +10,12 @@ Android Augmented Reality Menu, an Android experiment for Google I/O 2017.
 
 Don’t you hate it when your friend’s food looks tastier than yours? AR Menu uses augmented reality technology to showcase a restaurant's menu as realistic 3D food models before it comes to your plate- so you know exactly what you had ordered. This android experiment replaces old, out-dated paper menus to an interactive and cool way to dine.
 
-<br />
 
 <a href="https://play.google.com/store/apps/details?id=com.PulsarLabs.ARMenu&hl=en&pli=1"><img src="https://github.com/asadmansr/ARMenu/blob/master/google_play.png" align="left" height="100" width="250" ></a>
 
+<br />
+<br />
+<br />
 
 ### How to Use
 
