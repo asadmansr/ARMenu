@@ -12,7 +12,7 @@ Don’t you hate it when your friend’s food looks tastier than yours? AR Menu 
 
 <br />
 
-[![Get it on Google Play](https://github.com/asadmansr/ARMenu/blob/master/google_play.png)](https://play.google.com/store/apps/details?id=com.PulsarLabs.ARMenu&hl=en&pli=1)
+[![Get it on Google Play](https://github.com/asadmansr/ARMenu/blob/master/google_play.png =250x100)](https://play.google.com/store/apps/details?id=com.PulsarLabs.ARMenu&hl=en&pli=1)
 
 
 ### How to Use
